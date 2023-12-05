@@ -1,0 +1,55 @@
+#calendario {
+    font-family: Arial, sans-serif;
+}
+
+.month {
+    display: inline-block;
+    margin: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.day {
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.dias-semana {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.dias-mes {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    text-align: center;
+}
+
+.feriado {
+    background-color: red;
+    color: black;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.data-comemorativa {
+    background-color: yellow;
+    color: black;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+}
+
+/*Adiciona estilos para o elemento 'h1' */
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
